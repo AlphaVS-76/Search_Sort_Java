@@ -2,3 +2,4 @@
 
 - Linear Search
 - Binary Search (Sorted in Ascending order)
+- Binary Search (Sorted in Descending order)
