@@ -19,9 +19,9 @@ public class SelectionSort {
         }
     }
 
-    static int large(int[] arr, int start, int last) {
+    static int large(int[] arr, int start, int end) {
         int l = start;
-        for (int i = 1; i <= last; i++) {
+        for (int i = 1; i <= end; i++) {
             if (arr[i] > arr[l]) {
                 l = i;
             }
@@ -29,9 +29,9 @@ public class SelectionSort {
         return l;
     }
 
-    static void swapping(int[] arr, int first, int second){
-        int temp = arr[first];
-        arr[first] = arr[second];
-        arr[second] = temp;
+    static void swapping(int[] arr, int f, int s){
+        int temp = arr[f];
+        arr[f] = arr[s];
+        arr[s] = temp;
     }
 }
