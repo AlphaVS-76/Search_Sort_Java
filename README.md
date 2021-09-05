@@ -4,4 +4,5 @@
 - Binary Search (Sorted in Ascending order)
 - Binary Search (Sorted in Descending order)
 - Bubble Sorting
-- Seelction Sorting
+- Selection Sorting
+- Insertion Sorting
