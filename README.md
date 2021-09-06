@@ -6,3 +6,4 @@
 - Bubble Sorting
 - Selection Sorting
 - Insertion Sorting
+- Cyclic Sorting
